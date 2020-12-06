@@ -226,3 +226,224 @@ body {
       padding: 15px;
       overflow: auto;
   }
+  /*авторизация*/
+  @media screen and (max-width: 860px) {
+    .img-log-am {
+        display: none;
+    }
+    .avtor {
+        max-width: 645px;
+        max-height: 685px;
+        display: flex;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        box-shadow: 0 10px 15px rgba(253,133,46,.35);
+        margin: 70px auto;
+        overflow: hidden;
+        z-index: 12;
+    }
+    .sign-in-nick {
+        margin-right: 300px;
+        margin-bottom: 10px;
+    }
+    .sign-in-pas {
+        margin-right: 300px;
+        margin-bottom: 10px;
+    }
+    .sign-in-form {
+        margin-top: 15px;
+        margin-left: 22%;
+        margin-right: 18%;
+        padding-right: 30px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .sign-in-form-footer .sign-in-form-button {
+        text-align: center;
+        margin-left: 27%;
+        padding: 18px 32px;
+        max-width: 190px;
+        color: #fff;
+        background: linear-gradient(127.69deg,#ff3e14 6.56%,#fd852e 84.95%);
+        box-shadow: 0 10px 15px rgba(253,133,46,.35);
+        cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 664px) {
+    .avtor {
+        max-width: 320px;
+        max-height: 460px;
+    }
+    .img-log-am {
+        display: none;
+    }
+    .sign-in-content {
+        text-align: center;
+        padding: 0px;
+    }
+    .sign-in-nick {
+        margin-right: 155px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .sign-in-pas {
+        margin-right: 162px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .elements {
+        margin-top: 0px;
+    }
+    .sign-in-form {
+        margin-top: 15px;
+        margin-left: 9%;
+        margin-right: 0%;
+        padding-right: 22px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .svg-img {
+        width: 195px;
+        height: 95px;
+    }
+    .sign-in-form-footer .sign-in-form-button {
+        margin-left: 11%;
+    }
+    .sign-in-form-footer {
+        margin-top: 10px;
+    }
+    .inp-style {
+        font-size: 12px;
+        width: 66%; 
+    }
+    .sign-in-form-footer .sign-in-form-button {
+        padding: 10px 10px;
+        margin-left: 17%;
+        font-size: 12px;
+    }
+    .sign-in-form-footer .sign-in-form-button a{
+        font-size: 13px;
+    }
+    .reg-info {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+  }
+  /*регистрация*/
+  @media screen and (max-width: 860px) {
+    .img-log-am {
+        display: none;
+    }
+    .avtor {
+        max-width: 645px;
+        max-height: 685px;
+        display: flex;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        box-shadow: 0 10px 15px rgba(253,133,46,.35);
+        margin: 70px auto;
+        overflow: hidden;
+        z-index: 12;
+    }
+    .sign-up-nick {
+        margin-right: 204px;
+        margin-bottom: 10px;
+    }
+    .sign-up-pas {
+        margin-right: 211px;
+        margin-bottom: 10px;
+    }
+    .sign-up-mails {
+        margin-right: 223px;
+        margin-bottom: 10px;
+    }
+    .sign-in-form {
+        margin-top: 15px;
+        margin-left: 22%;
+        margin-right: 18%;
+        padding-right: 30px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .sign-in-form-footer .sign-in-form-button {
+        text-align: center;
+        margin-left: 27%;
+        padding: 18px 32px;
+        max-width: 190px;
+        color: #fff;
+        background: linear-gradient(127.69deg,#ff3e14 6.56%,#fd852e 84.95%);
+        box-shadow: 0 10px 15px rgba(253,133,46,.35);
+        cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 664px) {
+    .avtor {
+        max-width: 320px;
+        max-height: 460px;
+    }
+    .img-log-am {
+        display: none;
+    }
+    .sign-up-content {
+        text-align: center;
+        padding: 0px;
+    }
+    .sign-up-nick {
+        margin-right: 66px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .sign-up-pas {
+        margin-right: 75px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .sign-up-mails {
+        margin-right: 83px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .sign-up-login {
+        margin-top: 0;
+    }
+    .elements {
+        margin-top: 0px;
+    }
+    .sign-in-form {
+        margin-top: 15px;
+        margin-left: 9%;
+        margin-right: 0%;
+        padding-right: 22px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .svg-img {
+        width: 195px;
+        height: 95px;
+    }
+    .sign-in-form-footer .sign-in-form-button {
+        margin-left: 11%;
+    }
+    .sign-in-form-footer {
+        margin-top: 10px;
+    }
+    .inp-style {
+        font-size: 12px;
+        width: 66%; 
+    }
+    .sign-in-form-footer .sign-in-form-button {
+        padding: 10px 10px;
+        margin-left: 17%;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .sign-in-form-footer .sign-in-form-button a{
+        font-size: 13px;
+    }
+    .reg-info {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+  }
